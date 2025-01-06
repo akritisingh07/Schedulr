@@ -18,15 +18,17 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 # OAuth for social media authentication
-gem 'omniauth'
-gem 'omniauth-linkedin-oauth2'
-gem 'devise'
+gem "omniauth"
+gem "omniauth-linkedin-oauth2"
+gem "devise"
 
 # Use dotenv to manage environment variables
-gem 'dotenv-rails', groups: [:development, :test]
+gem "dotenv-rails", groups: [ :development, :test ]
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
+gem "rubyzip", "2.4"
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
