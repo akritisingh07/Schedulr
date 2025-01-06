@@ -25,4 +25,3 @@ end
     super
     Rails.logger.debug "Redirecting after login: #{after_sign_in_path_for(resource)}"
   end
-
