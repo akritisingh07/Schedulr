@@ -23,8 +23,8 @@ gem "omniauth-linkedin-oauth2"
 gem "devise"
 
 # Use dotenv to manage environment variables
-# gem "dotenv-rails", groups: [ :development, :test ]
-gem 'dotenv-rails', '~> 2.8' # Ensure you're using a compatible version
+gem "dotenv-rails", "~> 2.8", groups: [ :development, :test ]
+
 
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
