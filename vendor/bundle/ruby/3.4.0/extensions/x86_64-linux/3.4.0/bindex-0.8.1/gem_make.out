@@ -1,0 +1,18 @@
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+/home/raj-k/.local/share/mise/installs/ruby/3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-1y1hbw sitelibdir\=./.gem.20250105-16931-1y1hbw clean
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-1y1hbw sitelibdir\=./.gem.20250105-16931-1y1hbw
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-1y1hbw sitelibdir\=./.gem.20250105-16931-1y1hbw install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20250105-16931-1y1hbw/skiptrace/internal
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-1y1hbw sitelibdir\=./.gem.20250105-16931-1y1hbw clean

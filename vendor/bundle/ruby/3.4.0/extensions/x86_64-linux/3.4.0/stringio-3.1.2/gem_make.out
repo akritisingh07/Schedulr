@@ -1,0 +1,18 @@
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.2/ext/stringio
+/home/raj-k/.local/share/mise/installs/ruby/3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-90j4zt sitelibdir\=./.gem.20250105-16931-90j4zt clean
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-90j4zt sitelibdir\=./.gem.20250105-16931-90j4zt
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-90j4zt sitelibdir\=./.gem.20250105-16931-90j4zt install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20250105-16931-90j4zt
+
+current directory: /home/raj-k/Schedulr/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250105-16931-90j4zt sitelibdir\=./.gem.20250105-16931-90j4zt clean
