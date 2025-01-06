@@ -16,7 +16,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
-
+gem 'dotenv-rails', '~> 2.8' 
 # OAuth for social media authentication
 gem "omniauth"
 gem "omniauth-linkedin-oauth2"
