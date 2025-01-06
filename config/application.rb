@@ -10,8 +10,6 @@ module Schedulr
   class Application < Rails::Application
     Dotenv::Railtie.load if Rails.env.development? || Rails.env.test?
     Dotenv.instrumenter = ActiveSupport::Notifications
-    require 'dotenv/rails-now' if defined?(Dotenv)
-
     require 'dotenv/rails'
     require 'dotenv/load'
 
