@@ -16,14 +16,14 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
-gem 'dotenv-rails', '~> 2.8'
+gem 'dotenv-rails', '~> 3.1'
 # OAuth for social media authentication
 gem "omniauth"
 gem "omniauth-linkedin-oauth2"
 gem "devise"
 
 # Use dotenv to manage environment variables
-gem "dotenv-rails", "~> 2.8", groups: [ :development, :test ]
+gem "dotenv-rails", "~> 3.1", groups: [ :development, :test ]
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem "bcrypt", "~> 3.1.7"
 gem "rubyzip", "2.4.1"
